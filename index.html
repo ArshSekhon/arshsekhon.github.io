@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/fav.ico"/>
+    <title>Arsh Sekhon</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+
+<section id="intro-section">
+    <div id="intro-wrapper">
+        <img id="alpha-loader" src="assets/alpha.svg"/>
+        <div id="loading-wrapper">
+            <div id="loading">&nbspLOADING</div>
+            <div class="strike-through"></div>
+        </div>
+        <img id="welcome-message" src="assets/intro.svg"/>
+    </div>
+</section>
+
+<section id="home-section">
+
+    <img id="name-home" src="assets/name.svg"/>
+
+    <div id="logo-wrapper">
+        <img id="alpha-home" src="assets/alpha.svg"/>
+        <img id="alpha-shadow" src="assets/shadow.svg"/>
+    </div>
+
+    <a id="works-link-wrapper" class="nav-link-wrapper">
+        <div class="nav-link-text">
+            <div class="link-ch">&nbsp</div>
+            <div class="link-ch">W</div>
+            <div class="link-ch">o</div>
+            <div class="link-ch">r</div>
+            <div class="link-ch">k</div>
+            <div class="link-ch">s</div>
+            <div class="link-ch">&nbsp</div>
+        </div>
+        <div class="nav-link-strike-through"></div>
+    </a>
+    <a id="about-link-wrapper" class="nav-link-wrapper">
+        <div class="nav-link-text">
+            <div class="link-ch">&nbsp</div>
+            <div class="link-ch">A</div>
+            <div class="link-ch">b</div>
+            <div class="link-ch">o</div>
+            <div class="link-ch">u</div>
+            <div class="link-ch">t</div>
+            <div class="link-ch">&nbsp</div>
+        </div>
+
+        <div class="nav-link-strike-through"></div>
+    </a>
+    <a id="contact-link-wrapper" class="nav-link-wrapper">
+        <div class="nav-link-text">
+            <div class="link-ch">&nbsp</div>
+            <div class="link-ch">C</div>
+            <div class="link-ch">o</div>
+            <div class="link-ch">n</div>
+            <div class="link-ch">t</div>
+            <div class="link-ch">a</div>
+            <div class="link-ch">c</div>
+            <div class="link-ch">t</div>
+            <div class="link-ch">&nbsp</div>
+        </div>
+        <div class="nav-link-strike-through"></div>
+    </a>
+</section>
+
+<section id="contact-section">
+
+
+    <div class="contact-intro-wrapper">
+        <div class="contact-intro">
+            <div class="justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-sm-6" id="say-hello">
+                        <div>Say Hello!</div>
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="say-hello-message justify-content-center">
+                    <div class="col-10 col-sm-6 justify-content-center">
+                        Send me a message using inbuilt interactive messenger or reach me on social media.
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div onclick="openMessage()" class="send-message-link">
+                        Message
+                    </div>
+                </div>
+            </div>
+
+            <div id="wrapper-contact-links">
+                <div class="row social-icons-row justify-content-center">
+                    <div class="social-icon justify-content-center col-3 col-sm-2 col-md-2 col-lg-1 first"><a
+                            target="_blank" href="https://www.facebook.com/arshsekhon.dev"><img
+                            src="assets/fb.svg" alt="facebook_icon"/></a></div>
+                    <div class="social-icon justify-content-center col-3 col-sm-2 col-md-2 col-lg-1"><a target="_blank"
+                                                                                                        href="https://www.behance.net/arshsekhonea7f"><img
+                            src="assets/Be.svg"
+                            alt="behance_icon"/></a>
+                    </div>
+                    <div class="social-icon justify-content-center col-3 col-sm-2 col-md-2 col-lg-1"><a target="_blank"
+                                                                                                        href="https://twitter.com/sekhon_arsh_"><img
+                            src="assets/twitter.svg" alt="twitter_icon"/></a></div>
+                    <div class="social-icon justify-content-center col-3 col-sm-2 col-md-2 col-lg-1 last"><a
+                            target="_blank" href="https://www.instagram.com/sekhon_arsh_/"><img
+                            src="assets/insta.svg" alt="insta_icon"/></a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="compose-message">
+        <form id="message-form" action="mailto:arshsekhon1998@gmail.com" method="post" enctype="text/plain">
+            <div id="questions-wrapper">
+                <div id="questions">
+                    What is your Name?
+                </div>
+
+                <div id="input-field-wrapper">
+                    <input type="text" name="Name" autocomplete="false|off" class="input-field" id="name-input"/>
+                    <input type="email" name="Email" autocomplete="false|off" class="input-field" id="email-input"/>
+                    <textarea rows="1" name="Message" autocomplete="false|off" class="input-field"
+                              id="message-input"></textarea>
+
+                    <div id="questions-progress-wrapper"></div>
+                </div>
+
+                <div id="contact-error-message">Field cannot be empty!</div>
+
+
+            </div>
+
+
+            <img id="form-next" src="assets/fab.svg"/>
+
+        </form>
+        <div id="finish-form-wrapper">
+            Thanks, I will be in touch!
+        </div>
+
+    </div>
+
+
+</section>
+
+<section id="about-section">
+
+
+    <div id="about-content-wrapper">
+
+        <div class="row">
+            <div id="hello-about" class="col-md-12 col-lg-7 col-xl-6 col-sm-12">
+                <div>Hello,</div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div id="about-i-am-wrapper" class="col-md-10 col-lg-5 col-xl-4 col-sm-9">
+
+                <div>I am
+                    <div id="about-strike-through-wrapper">
+                        <div id="about-strike-through-text">Arsh Sekhon</div>
+                        <div id="about-strike-through"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="about-intro" class="row">
+            <div class="col-sm-12 col-lg-9 col-md-10 about-paragraph">
+                I am a 18 year old full stack Web Developer , Programmer, freelancer and Graphics Designer. I do
+                Android app and game development (Unity) as well. I am proficient in various programming
+                languages. I love to learn new stuff. I love to code <3.
+            </div>
+        </div>
+
+
+        <div id="about-as-a-webdev" class="about-role">
+            <div class="role-title">Me as a Web Developer</div>
+            <div class="col-sm-12 col-lg-9 col-md-10 about-paragraph">
+                I am a full stack Web Developer , I create eye candy web pages using
+                HTML , CSS3, Javascript and market standards like jQuery , Bootstrap ,
+                GSAP and my skills as a graphic designer help me create a great UI/UX
+                for my websites. I can also code a robust and efficient backend for
+                the websites using php and MySQL and not to mention my programming skills
+                help me do the same.I also have experience using Wordpress. I love exploring various new libraries.
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class=" col-lg-1 col-xl-1"></div>
+            <div class="col-12 col-md-9 col-lg-6 col-xl-5">
+                <div class="row logos" id="webdev-logos">
+                    <div class="col-4  about-logo col-centered first-3-logos"><img class="center-block"
+                                                                                   src="assets/html5.png"></div>
+
+                    <div class="col-4  about-logo col-centered first-3-logos"><img class="center-block"
+                                                                                   src="assets/css3.png"></div>
+
+                    <div class="col-4  about-logo col-centered first-3-logos"><img class="center-block"
+                                                                                   src="assets/js.png"></div>
+
+                    <div class="col-4 about-logo col-centered"><img class="center-block" src="assets/wplogo.png"></div>
+
+                    <div class="col-4 about-logo col-centered"><img class="center-block" src="assets/msql.png"></div>
+
+                    <div class="col-4 about-logo col-centered"><img class="center-block" src="assets/php.svg"></div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="about-as-a-programmer" class="about-role">
+            <div class="role-title">Me as a Programmer</div>
+            <div class="col-sm-12 col-lg-9 col-md-10 about-paragraph">
+                I am a programmer, I started when I was 15 and eventually took up various programming languages.
+                I have a good grasp of object oriented programming methodology and am fluent in various programing
+                languages like Java, C++, Python, PHP, Javascript and C#. I have done Android development and I am
+                quite familiar with Android Studio. I also have a experience in game
+                development using Unity. I also have experience working with SQL for database management and Git for
+                version control.
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class=" col-lg-1 col-xl-1"></div>
+            <div class="col-12 col-md-9 col-lg-6 col-xl-5">
+                <div class="row logos" id="programing-logos">
+                    <div class="col-4  about-logo col-centered first-3-logos"><img class="center-block"
+                                                                                   src="assets/javaLogo.png"></div>
+
+                    <div class="col-4  about-logo col-centered first-3-logos"><img class="center-block"
+                                                                                   src="assets/cpp.png"></div>
+
+                    <div class="col-4  about-logo col-centered first-3-logos"><img class="center-block"
+                                                                                   src="assets/php.svg"></div>
+
+
+                    <div class="col-4 about-logo col-centered"><img class="center-block" src="assets/python.png"></div>
+
+                    <div class="col-4 about-logo col-centered"><img class="center-block" src="assets/android.png"></div>
+
+                    <div class="col-4 about-logo col-centered"><img class="center-block" src="assets/csharp.png"></div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="about-as-a-designer" class="about-role">
+            <div class="role-title">Me as a Graphic Designer</div>
+            <div class="col-sm-12 col-lg-9 col-md-10 about-paragraph">
+                I am also a graphic designer and have worked as freelancer in the same field. I have a
+                good experience using the Adobe Suite and also have taken Graphic Design courses to further
+                polish my skill. I have experience working with Adobe Illustrator , Adobe Photoshop and Adobe
+                After Effects. This knowledge is a great asset for my role as a developer as all of my projects
+                are developed and designed by me including this website.
+            </div>
+        </div>
+
+
+        <div class="row" id="gd-about">
+            <div class=" col-lg-1 col-xl-1"></div>
+            <div class="col-12 col-md-9 col-lg-6 col-xl-5">
+                <div class="row logos">
+                    <div class="col-4  about-logo col-centered first-3-logos"><img class="center-block"
+                                                                                   src="assets/psLogo.jpg"></div>
+
+                    <div class="col-4  about-logo col-centered first-3-logos"><img class="center-block"
+                                                                                   src="assets/aiLogo.png"></div>
+
+                    <div class="col-4  about-logo col-centered first-3-logos"><img class="center-block"
+                                                                                   src="assets/aeLogo.png"></div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="bottom-banner-about" class="row">
+            <div class="col-lg-4  left-banner">Copyright &copy; 2017</div>
+            <div class="col-lg-4 middle-banner">
+                <div class="row">
+                    <div class="col">Arshdeep Singh Sekhon</div>
+                </div>
+                <div class="row">
+                    <div class="col">University of the Fraser Valley</div>
+                </div>
+            </div>
+            <div class="col-lg-4 right-banner">Designer | Developer</div>
+        </div>
+
+
+    </div>
+
+
+</section>
+
+<section id="work-section">
+    <div id="works" class="work-categories row">
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6  work-category developer-works">
+            <div class="row">
+                <h1>ME AS A<br/>DEVELOPER.</h1>
+            </div>
+            <div class="row catagory-icon-row develop-icon">
+                <img class="category D" src="assets/developer_logo.svg"/>
+            </div>
+
+            <div class="button-wrapper row justify-content-center">
+                <div onclick="openProjectsMenu()" class="btn">
+                    Projects
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 work-category design-works">
+            <div class="row">
+                <h1>ME AS A<br/> DESIGNER.</h1>
+            </div>
+
+            <div class="row catagory-icon-row design-icon">
+                <img class="category" src="assets/design_logo.svg"/>
+            </div>
+
+            <div class="button-wrapper row justify-content-center">
+                <a href="https://www.behance.net/arshsekhonea7f" target="_blank">
+                    <div class="btn">
+                        Explore
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!--
+        <div class="projects-header"><strike>Explore Projects </strike></div>-->
+    <div id="projects-menu">
+
+        <div id="projects-wrapper">
+            <div class="row">
+                <div onclick="openProject('#viaggio-desc')" class=" project-link col-12 col-md-6 col-lg-6">
+                    <div id="viaggio-link"  class="project-wrapper">VIAGGIO
+                        <div class="strike-through-project"></div>
+                    </div>
+                </div>
+
+                <div onclick="openProject('#infinity-desc')" class=" project-link col-12 col-md-6 col-lg-6">
+                    <div id="infinity-link"  class="project-wrapper">INFINITY
+                        <div class="strike-through-project"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div onclick="openProject('#os-desc')" class=" project-link col-12 col-md-6 col-lg-6">
+                    <div id="old-site-link"  class="project-wrapper">OLD SITE
+                        <div class="strike-through-project"></div>
+                    </div>
+                </div>
+
+                <div onclick="openProject('#just-dots-desc')" class=" project-link col-12 col-md-6 col-lg-6">
+                    <div id="jd-link"  class="project-wrapper">JUST DOTS
+                        <div class="strike-through-project"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div  onclick="openProject('#lib-management-desc')" class=" project-link col-12 col-md-6 col-lg-6">
+                    <div id="lib-manager-link"  class="project-wrapper">LIB. MANAGER
+                        <div class="strike-through-project"></div>
+                    </div>
+                </div>
+
+                <div  onclick="openProject('#space-war-desc')" class=" project-link col-12 col-md-6 col-lg-6">
+                    <div id="space-war-link"  class="project-wrapper">SPACE WAR
+                        <div class="strike-through-project"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div onclick="openProject('#music-player-desc')" class=" project-link col-12 col-md-6 col-lg-6">
+                    <div id="music-player-link"  class="project-wrapper">MUSIC PLAYER
+                        <div class="strike-through-project"></div>
+                    </div>
+                </div>
+
+                <div class=" project-link col-12 col-md-6 col-lg-6">
+                    <div id="more-soon" class="project-wrapper">MORE SOON</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+</section>
+
+<div class="header">
+    <div class="header-close-button"><img src="assets/close.svg"></div>
+</div>
+
+
+
+
+<section id="dev-projects">
+    <div id="viaggio-desc"  class="desc-wrapper">
+
+        <div class="project-heading-wrapper project-section">
+            <div class="row project-title-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-4 project-title" id="viaggio-title">
+                    <div>Viaggio</div>
+                </div>
+            </div>
+
+            <div class="row project-subtitle-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-3 project-subtitle">
+                    Website that helps you find a perfect holiday destination.
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <a href="https://cisweb.ufv.ca/~300146479/finalProject/" target="_blank"><div class="btn ">Launch</div></a>
+            </div>
+
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>UX/UI &nbsp HTML &nbsp CSS &nbsp JAVASCRIPT &nbsp JQUERY</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    This website is written from scratch using HTML, CSS, JavaScript and
+                    jQuery. All the elements of the website were designed using Photoshop
+                    and Illustrator. Foundation 5 was used as a front-end framework and
+                    various Javascript libraries like jQuery, fullPage etc. were used
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-11 col-lg-8">
+                    <img class="shadowed-img" src="assets/viaggio/vsc1.PNG">
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>USER EXPERIENCE</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    Eleganty Designed website is divided into sections and navigation allows
+                    only one section to be visible at a time. Scroll has a power steering to it
+                    that allows user to focus only on current section. It has a beautiful landing page.
+                    and makes use of the loader to ensure a perfect user experience.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-11 col-lg-8">
+                    <img class="shadowed-img" src="assets/viaggio/vsc2.PNG">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section"><div class="row justify-content-center">
+            <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                <STRONG>RESPONSIVE DESIGN</STRONG>
+            </div>
+        </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    Responsive design helps to scale the content according to device size and
+                    therefore, it allows to retain its perfect user experience even on the mobile
+                    and tablet devices. Also, its adaptive side navigation assists user by providing easy navigation on mobile as
+                    well.
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-11 col-lg-8">
+                    <img class="shadowed-img" src="assets/viaggio/vsc3.PNG">
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    Interactive slider allows user to view different places they can choose for
+                    their holiday destination. Slider is responsive as well and adapts to
+                    smaller displays.
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-banner-about row" >
+            <div class="col-lg-4  left-banner">Copyright &copy; 2017</div>
+            <div class="col-lg-4 middle-banner">
+                <div class="row">
+                    <div class="col">Arshdeep Singh Sekhon</div>
+                </div>
+                <div class="row">
+                    <div class="col">University of the Fraser Valley</div>
+                </div>
+            </div>
+            <div class="col-lg-4 right-banner">Designer | Developer</div>
+        </div>
+    </div>
+
+    <div  id="os-desc" class="desc-wrapper">
+
+        <div class="project-heading-wrapper project-section">
+            <div class="row project-title-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-4 project-title" id="old-site-title">
+                    <div>Old Folio</div>
+                </div>
+            </div>
+
+            <div class="row project-subtitle-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-3 project-subtitle">
+                    For some Nostalgia. This is a really really old project. This
+                    one is here for a purpose.
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <a href="https://cisweb.ufv.ca/~300146479/oldPortfolio/" target="_blank"><div class="btn ">Launch</div></a>
+            </div>
+
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>THIS FROM WHERE I STARTED</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    This is my Portfolio from the time when I got started with
+                    graphic design and web development(in high school). I wanted to have this
+                    on my portfolio although it is not a perfect one. This is just
+                    a reminder where I started from and how far have I come.
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-11 col-lg-8">
+                    <img class="shadowed-img-2" src="assets/OS/os1.PNG">
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>JUST SIMPLE STUFF</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    This one just uses basic HTML CSS and javascript. It just uses Foundation
+                    5 as a frontend framework. It is just simple static page with little bit of
+                    JavaScript and CSS.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-11 col-lg-8">
+                    <img class="shadowed-img-2" src="assets/OS/os2.PNG">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    It also showcases some of my works.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-11 col-lg-8">
+                    <img class="shadowed-img-2" src="assets/OS/os3.PNG">
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    What do you think how far have I come?
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-banner-about row" >
+            <div class="col-lg-4  left-banner">Copyright &copy; 2017</div>
+            <div class="col-lg-4 middle-banner">
+                <div class="row">
+                    <div class="col">Arshdeep Singh Sekhon</div>
+                </div>
+                <div class="row">
+                    <div class="col">University of the Fraser Valley</div>
+                </div>
+            </div>
+            <div class="col-lg-4 right-banner">Designer | Developer</div>
+        </div>
+    </div>
+
+    <div id="lib-management-desc" class="desc-wrapper">
+
+        <div class="project-heading-wrapper project-section">
+            <div class="row project-title-wrapper justify-content-center">
+                <div class="col-8 col-md-8 col-lg-5 project-title" id="lib-management-title">
+                    <div>Library Manager</div>
+                </div>
+            </div>
+
+            <div class="row project-subtitle-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-3 project-subtitle">
+                    Coded in C++, a Complete console based Library Management System.
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <a href="https://cisweb.ufv.ca/~300146479/oldPortfolio/" target="_blank"><div class="btn ">Download (PC)</div></a>
+            </div>
+
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>A COMPLETE PACKAGE</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    This is a complete package that can help automation of record keeping
+                    in small libraries. It keeps track of books and members of library. Allows
+                    issuing of a book to certain user, returning book, checking availability of the book
+                    ,managing book and member information. It also allows you to save the records to a file
+                    and load them back into memory of the library manager. Allows user to view edit and delete
+                    records of books and members.
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-11 col-lg-8">
+                    <img class="shadowed-img-2" src="assets/lib-man/lbmsc1.PNG">
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>A FOOL PROOF SOLUTION</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    Library Manager is really robust as it deals really well with accidental
+                    insertion of invalid values. It also helps in maintaining data integerity by proper
+                    implementation of relationships between various records for instance, you cannot reissue
+                    a book in this system unless it has been returned by previous borrower.So this prevents accidental
+
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>SAFE AND RELIABLE SOLUTION</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    You can save all of your records in a file and moreover overall
+                    management system is secured by password user has to enter password
+                    to log into administrative mode to make edits to the records.
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="bottom-banner-about row" >
+            <div class="col-lg-4  left-banner">Copyright &copy; 2017</div>
+            <div class="col-lg-4 middle-banner">
+                <div class="row">
+                    <div class="col">Arshdeep Singh Sekhon</div>
+                </div>
+                <div class="row">
+                    <div class="col">University of the Fraser Valley</div>
+                </div>
+            </div>
+            <div class="col-lg-4 right-banner">Designer | Developer</div>
+        </div>
+    </div>
+
+    <div id="just-dots-desc" class="desc-wrapper mobile-project">
+
+        <div class="project-heading-wrapper project-section">
+            <div class="row project-title-wrapper justify-content-center">
+                <div class="col-8 col-md-8 col-lg-5 project-title" id="just-dots-title">
+                    <div>Just Dots</div>
+                </div>
+            </div>
+
+            <div class="row project-subtitle-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-3 project-subtitle">
+                    An Addictive mobile game made in Unity. Simple but good enough to hook you up!
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <a href="https://www.amazon.com/ArshSekhon-Just-Dots/dp/B01LPOO4JC" target="_blank"><div class="btn ">GET IT !</div></a>
+            </div>
+
+        </div>
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>ITS ALL ABOUT MATCHING COLORS</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    All you have to do is change colors of dots at the bottom of the screen
+                    to make sure that the smaller dot falling into the larger one is of the
+                    Trust me its not. Its all about concentration and focus, you lose your
+                    focus for a second and Game's Over!
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>CROSS PLATFORM MOBILE GAME</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    It was made using Unity so, it is available for both Android and iPhone.
+                    This game was designed and developed by me on my own. It was code in C#. It is
+                    already available on Amazon App Store but will soon be available on Google Play
+                    Store.
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-5 col-lg-3">
+                    <img class="shadowed-img-2" src="assets/jd/jd%20(1).png">
+                </div>
+                <div class="col-12 col-lg-1"></div>
+                <div class="col-10 col-md-11 col-lg-3 mobile-text">
+                    <div>
+                        <div>PLAY SERVICES.</div>
+                        Has Google Play Game services integrated that allows user to compete with friends and
+                        other people from all around the globe. There are lot of achievements to be unlocked.
+                        Leaderboards let you compare your standings relative to players from all across the globe.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-5 col-lg-3">
+                    <img class="shadowed-img-2" src="assets/jd/jd%20(2).png">
+                </div>
+                <div class="col-12 col-lg-1"></div>
+                <div class="col-10 col-md-11 col-lg-3 mobile-text">
+                    <div>
+                        <div>2 MODES.</div>
+                        Game has 2 modes: Rookie and Expert. Think Rookie is
+                        not hard enough for you go ahead try expert mode.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>GO AHEAD GIVE IT A SHOT!</STRONG>
+                </div>
+            </div>
+            <BR/>
+
+        </div>
+
+
+
+        <div class="bottom-banner-about row" >
+            <div class="col-lg-4  left-banner">Copyright &copy; 2017</div>
+            <div class="col-lg-4 middle-banner">
+                <div class="row">
+                    <div class="col">Arshdeep Singh Sekhon</div>
+                </div>
+                <div class="row">
+                    <div class="col">University of the Fraser Valley</div>
+                </div>
+            </div>
+            <div class="col-lg-4 right-banner">Designer | Developer</div>
+        </div>
+    </div>
+
+    <div id="music-player-desc" class="desc-wrapper mobile-project">
+
+        <div class="project-heading-wrapper project-section">
+            <div class="row project-title-wrapper justify-content-center">
+                <div class="col-8 col-md-8 col-lg-5 project-title" id="music-player-title">
+                    <div>Music Player</div>
+                </div>
+            </div>
+
+            <div class="row project-subtitle-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-3 project-subtitle">
+                    Music Player re-designed! Say good-bye to boring looking
+                    music players.
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <a ><div class="btn ">Coming Soon!</div></a>
+            </div>
+
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-9 col-lg-7 text-center techs">
+                    <img src="assets/mp/mp-(1).png"/>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>IN DEVELOPEMENT</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    It is still under developmental phase though basic navigation and other
+                    basic functionality has been finished. You can expect to see this on Google
+                    Play Store soon.
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-5 col-lg-3">
+                    <img class="shadowed-img-2" src="assets/mp/mp-(3).png">
+                </div>
+                <div class="col-12 col-lg-1"></div>
+                <div class="col-10 col-md-11 col-lg-3 mobile-text">
+                    <div>
+                        <div>PLAYER.</div>
+                        Elegantly designed Player UI, is what makes it stand out of it's market
+                        competitors. It would offer a perfect user experience.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-5 col-lg-3">
+                    <img class="shadowed-img-2" src="assets/mp/mp-(2).png">
+                </div>
+                <div class="col-12 col-lg-1"></div>
+                <div class="col-10 col-md-11 col-lg-3 mobile-text">
+                    <div>
+                        <div>EASY NAVIGATION.</div>
+                        Beautiful Navigation Menus allows you to quickly access the tunes you
+                        wish to play as a list, these can be organized and sorted by Albums, Artists
+                        and Genres.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>I'LL GET IT SHIPPED SOON!<br/> I PROMISE.</STRONG>
+                </div>
+            </div>
+            <BR/>
+
+        </div>
+
+
+
+        <div class="bottom-banner-about row" >
+            <div class="col-lg-4  left-banner">Copyright &copy; 2017</div>
+            <div class="col-lg-4 middle-banner">
+                <div class="row">
+                    <div class="col">Arshdeep Singh Sekhon</div>
+                </div>
+                <div class="row">
+                    <div class="col">University of the Fraser Valley</div>
+                </div>
+            </div>
+            <div class="col-lg-4 right-banner">Designer | Developer</div>
+        </div>
+    </div>
+
+    <div id="space-war-desc" class="desc-wrapper">
+
+        <div class="project-heading-wrapper project-section">
+            <div class="row project-title-wrapper justify-content-center">
+                <div class="col-8 col-md-8 col-lg-5 project-title" id="space-war-title">
+                    <div>Space Wars</div>
+                </div>
+            </div>
+
+            <div class="row project-subtitle-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-3 project-subtitle">
+                    One of my first computer games. Feel the nostalgia
+                    with the classic Space War.
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <a href="https://cisweb.ufv.ca/~300146479/oldPortfolio/" target="_blank"><div class="btn ">Download (PC)</div></a>
+            </div>
+
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>EXPERIENCE YOUR CHILDHOOD AGAIN</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    This game was developed by me years ago when I started with programming and game
+                    developement all you have to do is basically kill all your enemies. They got lasers
+                    too, so be careful! Let's find how long you can survive destroy more score more.
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-11 col-lg-8">
+                    <img class="shadowed-img-2" src="assets/games/spw.jpg">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="bottom-banner-about row" >
+            <div class="col-lg-4  left-banner">Copyright &copy; 2017</div>
+            <div class="col-lg-4 middle-banner">
+                <div class="row">
+                    <div class="col">Arshdeep Singh Sekhon</div>
+                </div>
+                <div class="row">
+                    <div class="col">University of the Fraser Valley</div>
+                </div>
+            </div>
+            <div class="col-lg-4 right-banner">Designer | Developer</div>
+        </div>
+    </div>
+
+    <div id="infinity-desc" class="desc-wrapper">
+
+        <div class="project-heading-wrapper project-section">
+            <div class="row project-title-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-4 project-title" id="infinity-title">
+                    <div>Infinity</div>
+                </div>
+            </div>
+
+            <div class="row project-subtitle-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-3 project-subtitle">
+                    Virtual Assistant that can make your life easier and You can talk to it!
+                    Its a project you "MUST" Explore!
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <a href="https://www.youtube.com/watch?v=aBAIYHexP3A" target="_blank"><div class="btn ">Explore</div></a>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>YOU CAN TALK TO IT!!</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    Infinity is a virtual assistant like Siri (obviously not that advanced, as I was the only
+                    person working on it).
+                    It has voice recognition system that allows it to identify users commands and it responds accordingly
+                    using computer systhesised human voice. It can manage your tasks, meeting schedules
+                    contacts etc. and you can control it by voice. It was built in Java and uses MySQL as database
+                    system. You can create multiple user accounts and secure private information for each account using
+                    passwords. It is cross platform as it was coded in Java, and is one of the projects I love the most!
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-7">
+                    <img  src="assets/infinity/inf-home.png">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="bottom-banner-about row" >
+            <div class="col-lg-4  left-banner">Copyright &copy; 2017</div>
+            <div class="col-lg-4 middle-banner">
+                <div class="row">
+                    <div class="col">Arshdeep Singh Sekhon</div>
+                </div>
+                <div class="row">
+                    <div class="col">University of the Fraser Valley</div>
+                </div>
+            </div>
+            <div class="col-lg-4 right-banner">Designer | Developer</div>
+        </div>
+    </div>
+
+    <div id="console-desc" class="desc-wrapper">
+
+        <div class="project-heading-wrapper project-section">
+            <div class="row project-title-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-4 project-title" id="console-games-title">
+                    <div>Console Games</div>
+                </div>
+            </div>
+
+            <div class="row project-subtitle-wrapper justify-content-center">
+                <div class="col-8 col-md-6 col-lg-3 project-subtitle">
+                    These were first few console based
+                    games made by me in C++.
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <a href="" target="_blank"><div class="btn ">Explore</div></a>
+            </div>
+
+        </div>
+
+        <div class="project-heading-wrapper project-section project-text-section">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center techs">
+                    <STRONG>BACK TO BASICS !</STRONG>
+                </div>
+            </div>
+            <BR/>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-11 col-lg-8 text-center">
+                    When I started with programming in C++ , first few of my projects were console based
+                    games like Tic Tac Toe and snakes and ladders
+                </div>
+            </div>
+        </div>
+
+        <div class="project-heading-wrapper project-section project-info-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-11 col-lg-8">
+                    <img  src="assets/games/ttt.png">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="bottom-banner-about row" >
+            <div class="col-lg-4  left-banner">Copyright &copy; 2017</div>
+            <div class="col-lg-4 middle-banner">
+                <div class="row">
+                    <div class="col">Arshdeep Singh Sekhon</div>
+                </div>
+                <div class="row">
+                    <div class="col">University of the Fraser Valley</div>
+                </div>
+            </div>
+            <div class="col-lg-4 right-banner">Designer | Developer</div>
+        </div>
+    </div>
+</section>
+
+
+<!--
+music player
+infinity
+space war
+-->
+
+<script src="js/compressed.js"></script>
+</body>
+</html>
